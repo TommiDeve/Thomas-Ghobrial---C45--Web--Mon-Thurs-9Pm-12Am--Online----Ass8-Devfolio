@@ -3,6 +3,10 @@
   --color-primary: #0078FF;
 }
 
+html {
+  scroll-padding: 60px;
+}
+
 .colored {
   color: var(--color-primary);
 }
@@ -50,6 +54,34 @@ nav {
       padding: 10px 20px;
       text-transform: capitalize;
     }
+
+
+
+    .dropdown-submenu .dropdown-menu {
+      display: none;
+      left: 100%;
+      top: 0;
+      margin-top: -1px;
+    }
+
+    .dropdown-submenu:hover>.dropdown-menu {
+      display: block;
+    }
+
+    @media (max-width: 991.98px) {
+      .dropdown-submenu .dropdown-menu {
+        position: static;
+        margin-left: 1rem;
+      }
+
+
+      .dropdown-submenu.show>.dropdown-menu {
+        display: block;
+      }
+    }
+
+
+
 
   }
 
@@ -109,7 +141,7 @@ nav {
   background-image: linear-gradient(#0000008b), url(../images/hero-bg.jpg);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: local;
 
 
 
@@ -245,7 +277,7 @@ nav {
 .counter {
   background-image: linear-gradient(#0078FFB3), url(../images/post-3.jpg);
   padding: 8rem 0;
-  background-attachment: fixed;
+  background-attachment: local;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -334,7 +366,7 @@ nav {
 .testimonial {
   background-image: linear-gradient(#0078FFB3), url(../images/overlay-bg.jpg);
   padding: 8rem 0;
-  background-attachment: fixed;
+  background-attachment: local;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -422,21 +454,22 @@ nav {
     bottom: -12px;
     left: 0;
   }
-
+  
   button {
     background-color: var(--color-primary);
     padding-block: 10px;
     transition: 0.3s;
-
+    
     &:hover {
       background-color: #3393FF;
       box-shadow: 0 0 0 3px #cde1f8;
       color: white !important;
     }
   }
-
+  
   textarea {
     height: 100px;
+    border: 1px solid #dee2e6;
   }
 
   li {
@@ -460,6 +493,25 @@ nav {
       color: white !important;
     }
   }
+}
+
+input {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  outline: 0;
+  border: 1px solid #dee2e6;
+}
+
+input:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+textarea:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
 }
 
 footer {
