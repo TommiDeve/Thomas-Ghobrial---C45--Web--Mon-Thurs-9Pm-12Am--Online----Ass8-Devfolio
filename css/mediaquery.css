@@ -1,0 +1,5036 @@
+@media screen and (min-width: 992px) {
+  .dropdown {
+    .dropdown-submenu>.dropdown-menu {
+      visibility: hidden;
+      display: block;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: -75%;
+      margin-top: -1px;
+      transition: 0.5s;
+      overflow: hidden;
+    }
+
+    >.dropdown-menu {
+      display: block;
+      visibility: hidden;
+      top: 130%;
+      transition: 0.5s;
+      opacity: 0;
+    }
+
+    &:hover>.dropdown-menu {
+      visibility: visible;
+      top: 100%;
+      opacity: 1;
+
+    }
+
+
+
+    .dropdown-submenu:hover>.dropdown-menu {
+      visibility: visible;
+      transform: translateX(-20%);
+      opacity: 1;
+    }
+  }
+
+
+
+  .navbar-nav>.nav-item>.nav-link {
+    position: relative;
+  }
+
+  .navbar-nav>.nav-item>.nav-link::after {
+    content: "";
+    position: absolute;
+    height: 2.5px;
+    background-color: white;
+    width: 0%;
+    bottom: 0;
+    left: 10%;
+    transition: width 0.3s ease;
+  }
+
+  .navbar-nav>.nav-item>.nav-link:hover::after {
+    width: 60%;
+  }
+
+  .dropdown-menu a::after {
+    content: none;
+  }
+
+  .nav-link.active::after {
+    width: 60% !important;
+  }
+
+
+}
+
+@media screen and (min-width: 1400px) {
+  .dropdown {
+    .dropdown-submenu>.dropdown-menu {
+      left: 80%;
+    }
+
+    .dropdown-submenu:hover>.dropdown-menu {
+
+      transform: translateX(20%);
+
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #blog .footer-img {
+    width: 7%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes typing {
+
+  /* Designer */
+  0% {
+    content: "D";
+    width: 1ch;
+  }
+
+  1% {
+    content: "De";
+    width: 2ch;
+  }
+
+  2% {
+    content: "Des";
+    width: 3ch;
+  }
+
+  3% {
+    content: "Desi";
+    width: 4ch;
+  }
+
+  4% {
+    content: "Desig";
+    width: 5ch;
+  }
+
+  5% {
+    content: "Design";
+    width: 6ch;
+  }
+
+  6% {
+    content: "Designe";
+    width: 7ch;
+  }
+
+  7% {
+    content: "Designer";
+    width: 8ch;
+  }
+
+  8% {
+    content: "Designer";
+    width: 8ch;
+  }
+
+  9% {
+    content: "Designer";
+    width: 8ch;
+  }
+
+  10% {
+    content: "Designer";
+    width: 8ch;
+  }
+
+  11% {
+    content: "Designer";
+    width: 8ch;
+  }
+
+  12% {
+    content: "Designer";
+    width: 8ch;
+  }
+
+  13% {
+    content: "Designer";
+    width: 8ch;
+  }
+
+  14% {
+    content: "Designe";
+    width: 7ch;
+  }
+
+  15% {
+    content: "Design";
+    width: 6ch;
+  }
+
+  16% {
+    content: "Desig";
+    width: 5ch;
+  }
+
+  17% {
+    content: "Desi";
+    width: 4ch;
+  }
+
+  18% {
+    content: "Des";
+    width: 3ch;
+  }
+
+  19% {
+    content: "De";
+    width: 2ch;
+  }
+
+  20% {
+    content: "D";
+    width: 1ch;
+  }
+
+  21% {
+    content: ".";
+    width: 0ch;
+  }
+
+  /* Developer */
+  22% {
+    content: "D";
+    width: 1ch;
+  }
+
+  23% {
+    content: "De";
+    width: 2ch;
+  }
+
+  24% {
+    content: "Dev";
+    width: 3ch;
+  }
+
+  25% {
+    content: "Deve";
+    width: 4ch;
+  }
+
+  26% {
+    content: "Devel";
+    width: 5ch;
+  }
+
+  27% {
+    content: "Develo";
+    width: 6ch;
+  }
+
+  28% {
+    content: "Develop";
+    width: 7ch;
+  }
+
+  29% {
+    content: "Develope";
+    width: 8ch;
+  }
+
+  30% {
+    content: "Developer";
+    width: 9ch;
+  }
+
+  31% {
+    content: "Developer";
+    width: 9ch;
+  }
+
+  32% {
+    content: "Developer";
+    width: 9ch;
+  }
+
+  33% {
+    content: "Developer";
+    width: 9ch;
+  }
+
+  34% {
+    content: "Developer";
+    width: 9ch;
+  }
+
+  35% {
+    content: "Developer";
+    width: 9ch;
+  }
+
+  36% {
+    content: "Developer";
+    width: 9ch;
+  }
+
+  37% {
+    content: "Develope";
+    width: 8ch;
+  }
+
+  38% {
+    content: "Develop";
+    width: 7ch;
+  }
+
+  39% {
+    content: "Develo";
+    width: 6ch;
+  }
+
+  40% {
+    content: "Devel";
+    width: 5ch;
+  }
+
+  41% {
+    content: "Deve";
+    width: 4ch;
+  }
+
+  42% {
+    content: "Dev";
+    width: 3ch;
+  }
+
+  43% {
+    content: "De";
+    width: 2ch;
+  }
+
+  44% {
+    content: "D";
+    width: 1ch;
+  }
+
+  45% {
+    content: ".";
+    width: 0ch;
+  }
+
+  /* Freelancer */
+  46% {
+    content: "F";
+    width: 1ch;
+  }
+
+  47% {
+    content: "Fr";
+    width: 2ch;
+  }
+
+  48% {
+    content: "Fre";
+    width: 3ch;
+  }
+
+  49% {
+    content: "Free";
+    width: 4ch;
+  }
+
+  50% {
+    content: "Freel";
+    width: 5ch;
+  }
+
+  51% {
+    content: "Freela";
+    width: 6ch;
+  }
+
+  52% {
+    content: "Freelan";
+    width: 7ch;
+  }
+
+  53% {
+    content: "Freelanc";
+    width: 8ch;
+  }
+
+  54% {
+    content: "Freelance";
+    width: 9ch;
+  }
+
+  55% {
+    content: "Freelancer";
+    width: 10ch;
+  }
+
+  56% {
+    content: "Freelancer";
+    width: 10ch;
+  }
+
+  57% {
+    content: "Freelancer";
+    width: 10ch;
+  }
+
+  58% {
+    content: "Freelancer";
+    width: 10ch;
+  }
+
+  59% {
+    content: "Freelancer";
+    width: 10ch;
+  }
+
+  60% {
+    content: "Freelancer";
+    width: 10ch;
+  }
+
+  61% {
+    content: "Freelancer";
+    width: 10ch;
+  }
+
+  62% {
+    content: "Freelance";
+    width: 9ch;
+  }
+
+  63% {
+    content: "Freelanc";
+    width: 8ch;
+  }
+
+  64% {
+    content: "Freelan";
+    width: 7ch;
+  }
+
+  65% {
+    content: "Freela";
+    width: 6ch;
+  }
+
+  66% {
+    content: "Freel";
+    width: 5ch;
+  }
+
+  67% {
+    content: "Free";
+    width: 4ch;
+  }
+
+  68% {
+    content: "Fre";
+    width: 3ch;
+  }
+
+  69% {
+    content: "Fr";
+    width: 2ch;
+  }
+
+  70% {
+    content: "F";
+    width: 1ch;
+  }
+
+  71% {
+    content: ".";
+    width: 0ch;
+  }
+
+  /* Photographer */
+  72% {
+    content: "P";
+    width: 1ch;
+  }
+
+  73% {
+    content: "Ph";
+    width: 2ch;
+  }
+
+  74% {
+    content: "Pho";
+    width: 3ch;
+  }
+
+  75% {
+    content: "Phot";
+    width: 4ch;
+  }
+
+  76% {
+    content: "Photo";
+    width: 5ch;
+  }
+
+  77% {
+    content: "Photog";
+    width: 6ch;
+  }
+
+  78% {
+    content: "Photogr";
+    width: 7ch;
+  }
+
+  79% {
+    content: "Photogra";
+    width: 8ch;
+  }
+
+  80% {
+    content: "Photograp";
+    width: 9ch;
+  }
+
+  81% {
+    content: "Photograph";
+    width: 10ch;
+  }
+
+  82% {
+    content: "Photographe";
+    width: 11ch;
+  }
+
+  83% {
+    content: "Photographer";
+    width: 12ch;
+  }
+
+  84% {
+    content: "Photographer";
+    width: 12ch;
+  }
+
+  85% {
+    content: "Photographer";
+    width: 12ch;
+  }
+
+  86% {
+    content: "Photographer";
+    width: 12ch;
+  }
+
+  87% {
+    content: "Photographer";
+    width: 12ch;
+  }
+
+  88% {
+    content: "Photographer";
+    width: 12ch;
+  }
+
+  89% {
+    content: "Photographer";
+    width: 12ch;
+  }
+
+  90% {
+    content: "Photographe";
+    width: 11ch;
+  }
+
+  91% {
+    content: "Photograph";
+    width: 10ch;
+  }
+
+  92% {
+    content: "Photograp";
+    width: 9ch;
+  }
+
+  93% {
+    content: "Photogra";
+    width: 8ch;
+  }
+
+  94% {
+    content: "Photogr";
+    width: 7ch;
+  }
+
+  95% {
+    content: "Photog";
+    width: 6ch;
+  }
+
+  96% {
+    content: "Photo";
+    width: 5ch;
+  }
+
+  97% {
+    content: "Phot";
+    width: 4ch;
+  }
+
+  98% {
+    content: "Pho";
+    width: 3ch;
+  }
+
+  99% {
+    content: "Ph";
+    width: 2ch;
+  }
+
+  100% {
+    content: "P";
+    width: 1ch;
+  }
+
+  101% {
+    content: ".";
+    width: 1ch;
+  }
+}
+
+
+@keyframes flasher {
+  8% {
+    border-right: 0px solid white;
+  }
+
+  9% {
+    border-right: 5px solid white;
+  }
+
+  10% {
+    border-right: 0px solid white;
+  }
+
+  11% {
+    border-right: 5px solid white;
+  }
+
+  12% {
+    border-right: 0px solid white;
+  }
+
+  13% {
+    border-right: 5px solid white;
+  }
+
+  30% {
+    border-right: 0px solid white;
+  }
+
+  31% {
+    border-right: 5px solid white;
+  }
+
+  32% {
+    border-right: 0px solid white;
+  }
+
+  33% {
+    border-right: 5px solid white;
+  }
+
+  34% {
+    border-right: 0px solid white;
+  }
+
+  35% {
+    border-right: 5px solid white;
+  }
+
+  55% {
+    border-right: 0px solid white;
+  }
+
+  56% {
+    border-right: 5px solid white;
+  }
+
+  57% {
+    border-right: 0px solid white;
+  }
+
+  58% {
+    border-right: 5px solid white;
+  }
+
+  59% {
+    border-right: 0px solid white;
+  }
+
+  60% {
+    border-right: 5px solid white;
+  }
+
+  83% {
+    border-right: 0px solid white;
+  }
+
+  84% {
+    border-right: 5px solid white;
+  }
+
+  85% {
+    border-right: 0px solid white;
+  }
+
+  86% {
+    border-right: 5px solid white;
+  }
+
+  87% {
+    border-right: 0px solid white;
+  }
+
+  88% {
+    border-right: 5px solid white;
+  }
+
+}
+
+@keyframes counter450 {
+  0.00% {
+    content: "0";
+  }
+
+  0.22% {
+    content: "1";
+  }
+
+  0.44% {
+    content: "2";
+  }
+
+  0.67% {
+    content: "3";
+  }
+
+  0.89% {
+    content: "4";
+  }
+
+  1.11% {
+    content: "5";
+  }
+
+  1.33% {
+    content: "6";
+  }
+
+  1.56% {
+    content: "7";
+  }
+
+  1.78% {
+    content: "8";
+  }
+
+  2.00% {
+    content: "9";
+  }
+
+  2.22% {
+    content: "10";
+  }
+
+  2.44% {
+    content: "11";
+  }
+
+  2.67% {
+    content: "12";
+  }
+
+  2.89% {
+    content: "13";
+  }
+
+  3.11% {
+    content: "14";
+  }
+
+  3.33% {
+    content: "15";
+  }
+
+  3.56% {
+    content: "16";
+  }
+
+  3.78% {
+    content: "17";
+  }
+
+  4.00% {
+    content: "18";
+  }
+
+  4.22% {
+    content: "19";
+  }
+
+  4.44% {
+    content: "20";
+  }
+
+  4.67% {
+    content: "21";
+  }
+
+  4.89% {
+    content: "22";
+  }
+
+  5.11% {
+    content: "23";
+  }
+
+  5.33% {
+    content: "24";
+  }
+
+  5.56% {
+    content: "25";
+  }
+
+  5.78% {
+    content: "26";
+  }
+
+  6.00% {
+    content: "27";
+  }
+
+  6.22% {
+    content: "28";
+  }
+
+  6.44% {
+    content: "29";
+  }
+
+  6.67% {
+    content: "30";
+  }
+
+  6.89% {
+    content: "31";
+  }
+
+  7.11% {
+    content: "32";
+  }
+
+  7.33% {
+    content: "33";
+  }
+
+  7.56% {
+    content: "34";
+  }
+
+  7.78% {
+    content: "35";
+  }
+
+  8.00% {
+    content: "36";
+  }
+
+  8.22% {
+    content: "37";
+  }
+
+  8.44% {
+    content: "38";
+  }
+
+  8.67% {
+    content: "39";
+  }
+
+  8.89% {
+    content: "40";
+  }
+
+  9.11% {
+    content: "41";
+  }
+
+  9.33% {
+    content: "42";
+  }
+
+  9.56% {
+    content: "43";
+  }
+
+  9.78% {
+    content: "44";
+  }
+
+  10.00% {
+    content: "45";
+  }
+
+  10.22% {
+    content: "46";
+  }
+
+  10.44% {
+    content: "47";
+  }
+
+  10.67% {
+    content: "48";
+  }
+
+  10.89% {
+    content: "49";
+  }
+
+  11.11% {
+    content: "50";
+  }
+
+  11.33% {
+    content: "51";
+  }
+
+  11.56% {
+    content: "52";
+  }
+
+  11.78% {
+    content: "53";
+  }
+
+  12.00% {
+    content: "54";
+  }
+
+  12.22% {
+    content: "55";
+  }
+
+  12.44% {
+    content: "56";
+  }
+
+  12.67% {
+    content: "57";
+  }
+
+  12.89% {
+    content: "58";
+  }
+
+  13.11% {
+    content: "59";
+  }
+
+  13.33% {
+    content: "60";
+  }
+
+  13.56% {
+    content: "61";
+  }
+
+  13.78% {
+    content: "62";
+  }
+
+  14.00% {
+    content: "63";
+  }
+
+  14.22% {
+    content: "64";
+  }
+
+  14.44% {
+    content: "65";
+  }
+
+  14.67% {
+    content: "66";
+  }
+
+  14.89% {
+    content: "67";
+  }
+
+  15.11% {
+    content: "68";
+  }
+
+  15.33% {
+    content: "69";
+  }
+
+  15.56% {
+    content: "70";
+  }
+
+  15.78% {
+    content: "71";
+  }
+
+  16.00% {
+    content: "72";
+  }
+
+  16.22% {
+    content: "73";
+  }
+
+  16.44% {
+    content: "74";
+  }
+
+  16.67% {
+    content: "75";
+  }
+
+  16.89% {
+    content: "76";
+  }
+
+  17.11% {
+    content: "77";
+  }
+
+  17.33% {
+    content: "78";
+  }
+
+  17.56% {
+    content: "79";
+  }
+
+  17.78% {
+    content: "80";
+  }
+
+  18.00% {
+    content: "81";
+  }
+
+  18.22% {
+    content: "82";
+  }
+
+  18.44% {
+    content: "83";
+  }
+
+  18.67% {
+    content: "84";
+  }
+
+  18.89% {
+    content: "85";
+  }
+
+  19.11% {
+    content: "86";
+  }
+
+  19.33% {
+    content: "87";
+  }
+
+  19.56% {
+    content: "88";
+  }
+
+  19.78% {
+    content: "89";
+  }
+
+  20.00% {
+    content: "90";
+  }
+
+  20.22% {
+    content: "91";
+  }
+
+  20.44% {
+    content: "92";
+  }
+
+  20.67% {
+    content: "93";
+  }
+
+  20.89% {
+    content: "94";
+  }
+
+  21.11% {
+    content: "95";
+  }
+
+  21.33% {
+    content: "96";
+  }
+
+  21.56% {
+    content: "97";
+  }
+
+  21.78% {
+    content: "98";
+  }
+
+  22.00% {
+    content: "99";
+  }
+
+  22.22% {
+    content: "100";
+  }
+
+  22.44% {
+    content: "101";
+  }
+
+  22.67% {
+    content: "102";
+  }
+
+  22.89% {
+    content: "103";
+  }
+
+  23.11% {
+    content: "104";
+  }
+
+  23.33% {
+    content: "105";
+  }
+
+  23.56% {
+    content: "106";
+  }
+
+  23.78% {
+    content: "107";
+  }
+
+  24.00% {
+    content: "108";
+  }
+
+  24.22% {
+    content: "109";
+  }
+
+  24.44% {
+    content: "110";
+  }
+
+  24.67% {
+    content: "111";
+  }
+
+  24.89% {
+    content: "112";
+  }
+
+  25.11% {
+    content: "113";
+  }
+
+  25.33% {
+    content: "114";
+  }
+
+  25.56% {
+    content: "115";
+  }
+
+  25.78% {
+    content: "116";
+  }
+
+  26.00% {
+    content: "117";
+  }
+
+  26.22% {
+    content: "118";
+  }
+
+  26.44% {
+    content: "119";
+  }
+
+  26.67% {
+    content: "120";
+  }
+
+  26.89% {
+    content: "121";
+  }
+
+  27.11% {
+    content: "122";
+  }
+
+  27.33% {
+    content: "123";
+  }
+
+  27.56% {
+    content: "124";
+  }
+
+  27.78% {
+    content: "125";
+  }
+
+  28.00% {
+    content: "126";
+  }
+
+  28.22% {
+    content: "127";
+  }
+
+  28.44% {
+    content: "128";
+  }
+
+  28.67% {
+    content: "129";
+  }
+
+  28.89% {
+    content: "130";
+  }
+
+  29.11% {
+    content: "131";
+  }
+
+  29.33% {
+    content: "132";
+  }
+
+  29.56% {
+    content: "133";
+  }
+
+  29.78% {
+    content: "134";
+  }
+
+  30.00% {
+    content: "135";
+  }
+
+  30.22% {
+    content: "136";
+  }
+
+  30.44% {
+    content: "137";
+  }
+
+  30.67% {
+    content: "138";
+  }
+
+  30.89% {
+    content: "139";
+  }
+
+  31.11% {
+    content: "140";
+  }
+
+  31.33% {
+    content: "141";
+  }
+
+  31.56% {
+    content: "142";
+  }
+
+  31.78% {
+    content: "143";
+  }
+
+  32.00% {
+    content: "144";
+  }
+
+  32.22% {
+    content: "145";
+  }
+
+  32.44% {
+    content: "146";
+  }
+
+  32.67% {
+    content: "147";
+  }
+
+  32.89% {
+    content: "148";
+  }
+
+  33.11% {
+    content: "149";
+  }
+
+  33.33% {
+    content: "150";
+  }
+
+  33.56% {
+    content: "151";
+  }
+
+  33.78% {
+    content: "152";
+  }
+
+  34.00% {
+    content: "153";
+  }
+
+  34.22% {
+    content: "154";
+  }
+
+  34.44% {
+    content: "155";
+  }
+
+  34.67% {
+    content: "156";
+  }
+
+  34.89% {
+    content: "157";
+  }
+
+  35.11% {
+    content: "158";
+  }
+
+  35.33% {
+    content: "159";
+  }
+
+  35.56% {
+    content: "160";
+  }
+
+  35.78% {
+    content: "161";
+  }
+
+  36.00% {
+    content: "162";
+  }
+
+  36.22% {
+    content: "163";
+  }
+
+  36.44% {
+    content: "164";
+  }
+
+  36.67% {
+    content: "165";
+  }
+
+  36.89% {
+    content: "166";
+  }
+
+  37.11% {
+    content: "167";
+  }
+
+  37.33% {
+    content: "168";
+  }
+
+  37.56% {
+    content: "169";
+  }
+
+  37.78% {
+    content: "170";
+  }
+
+  38.00% {
+    content: "171";
+  }
+
+  38.22% {
+    content: "172";
+  }
+
+  38.44% {
+    content: "173";
+  }
+
+  38.67% {
+    content: "174";
+  }
+
+  38.89% {
+    content: "175";
+  }
+
+  39.11% {
+    content: "176";
+  }
+
+  39.33% {
+    content: "177";
+  }
+
+  39.56% {
+    content: "178";
+  }
+
+  39.78% {
+    content: "179";
+  }
+
+  40.00% {
+    content: "180";
+  }
+
+  40.22% {
+    content: "181";
+  }
+
+  40.44% {
+    content: "182";
+  }
+
+  40.67% {
+    content: "183";
+  }
+
+  40.89% {
+    content: "184";
+  }
+
+  41.11% {
+    content: "185";
+  }
+
+  41.33% {
+    content: "186";
+  }
+
+  41.56% {
+    content: "187";
+  }
+
+  41.78% {
+    content: "188";
+  }
+
+  42.00% {
+    content: "189";
+  }
+
+  42.22% {
+    content: "190";
+  }
+
+  42.44% {
+    content: "191";
+  }
+
+  42.67% {
+    content: "192";
+  }
+
+  42.89% {
+    content: "193";
+  }
+
+  43.11% {
+    content: "194";
+  }
+
+  43.33% {
+    content: "195";
+  }
+
+  43.56% {
+    content: "196";
+  }
+
+  43.78% {
+    content: "197";
+  }
+
+  44.00% {
+    content: "198";
+  }
+
+  44.22% {
+    content: "199";
+  }
+
+  44.44% {
+    content: "200";
+  }
+
+  44.67% {
+    content: "201";
+  }
+
+  44.89% {
+    content: "202";
+  }
+
+  45.11% {
+    content: "203";
+  }
+
+  45.33% {
+    content: "204";
+  }
+
+  45.56% {
+    content: "205";
+  }
+
+  45.78% {
+    content: "206";
+  }
+
+  46.00% {
+    content: "207";
+  }
+
+  46.22% {
+    content: "208";
+  }
+
+  46.44% {
+    content: "209";
+  }
+
+  46.67% {
+    content: "210";
+  }
+
+  46.89% {
+    content: "211";
+  }
+
+  47.11% {
+    content: "212";
+  }
+
+  47.33% {
+    content: "213";
+  }
+
+  47.56% {
+    content: "214";
+  }
+
+  47.78% {
+    content: "215";
+  }
+
+  48.00% {
+    content: "216";
+  }
+
+  48.22% {
+    content: "217";
+  }
+
+  48.44% {
+    content: "218";
+  }
+
+  48.67% {
+    content: "219";
+  }
+
+  48.89% {
+    content: "220";
+  }
+
+  49.11% {
+    content: "221";
+  }
+
+  49.33% {
+    content: "222";
+  }
+
+  49.56% {
+    content: "223";
+  }
+
+  49.78% {
+    content: "224";
+  }
+
+  50.00% {
+    content: "225";
+  }
+
+  50.22% {
+    content: "226";
+  }
+
+  50.44% {
+    content: "227";
+  }
+
+  50.67% {
+    content: "228";
+  }
+
+  50.89% {
+    content: "229";
+  }
+
+  51.11% {
+    content: "230";
+  }
+
+  51.33% {
+    content: "231";
+  }
+
+  51.56% {
+    content: "232";
+  }
+
+  51.78% {
+    content: "233";
+  }
+
+  52.00% {
+    content: "234";
+  }
+
+  52.22% {
+    content: "235";
+  }
+
+  52.44% {
+    content: "236";
+  }
+
+  52.67% {
+    content: "237";
+  }
+
+  52.89% {
+    content: "238";
+  }
+
+  53.11% {
+    content: "239";
+  }
+
+  53.33% {
+    content: "240";
+  }
+
+  53.56% {
+    content: "241";
+  }
+
+  53.78% {
+    content: "242";
+  }
+
+  54.00% {
+    content: "243";
+  }
+
+  54.22% {
+    content: "244";
+  }
+
+  54.44% {
+    content: "245";
+  }
+
+  54.67% {
+    content: "246";
+  }
+
+  54.89% {
+    content: "247";
+  }
+
+  55.11% {
+    content: "248";
+  }
+
+  55.33% {
+    content: "249";
+  }
+
+  55.56% {
+    content: "250";
+  }
+
+  55.78% {
+    content: "251";
+  }
+
+  56.00% {
+    content: "252";
+  }
+
+  56.22% {
+    content: "253";
+  }
+
+  56.44% {
+    content: "254";
+  }
+
+  56.67% {
+    content: "255";
+  }
+
+  56.89% {
+    content: "256";
+  }
+
+  57.11% {
+    content: "257";
+  }
+
+  57.33% {
+    content: "258";
+  }
+
+  57.56% {
+    content: "259";
+  }
+
+  57.78% {
+    content: "260";
+  }
+
+  58.00% {
+    content: "261";
+  }
+
+  58.22% {
+    content: "262";
+  }
+
+  58.44% {
+    content: "263";
+  }
+
+  58.67% {
+    content: "264";
+  }
+
+  58.89% {
+    content: "265";
+  }
+
+  59.11% {
+    content: "266";
+  }
+
+  59.33% {
+    content: "267";
+  }
+
+  59.56% {
+    content: "268";
+  }
+
+  59.78% {
+    content: "269";
+  }
+
+  60.00% {
+    content: "270";
+  }
+
+  60.22% {
+    content: "271";
+  }
+
+  60.44% {
+    content: "272";
+  }
+
+  60.67% {
+    content: "273";
+  }
+
+  60.89% {
+    content: "274";
+  }
+
+  61.11% {
+    content: "275";
+  }
+
+  61.33% {
+    content: "276";
+  }
+
+  61.56% {
+    content: "277";
+  }
+
+  61.78% {
+    content: "278";
+  }
+
+  62.00% {
+    content: "279";
+  }
+
+  62.22% {
+    content: "280";
+  }
+
+  62.44% {
+    content: "281";
+  }
+
+  62.67% {
+    content: "282";
+  }
+
+  62.89% {
+    content: "283";
+  }
+
+  63.11% {
+    content: "284";
+  }
+
+  63.33% {
+    content: "285";
+  }
+
+  63.56% {
+    content: "286";
+  }
+
+  63.78% {
+    content: "287";
+  }
+
+  64.00% {
+    content: "288";
+  }
+
+  64.22% {
+    content: "289";
+  }
+
+  64.44% {
+    content: "290";
+  }
+
+  64.67% {
+    content: "291";
+  }
+
+  64.89% {
+    content: "292";
+  }
+
+  65.11% {
+    content: "293";
+  }
+
+  65.33% {
+    content: "294";
+  }
+
+  65.56% {
+    content: "295";
+  }
+
+  65.78% {
+    content: "296";
+  }
+
+  66.00% {
+    content: "297";
+  }
+
+  66.22% {
+    content: "298";
+  }
+
+  66.44% {
+    content: "299";
+  }
+
+  66.67% {
+    content: "300";
+  }
+
+  66.89% {
+    content: "301";
+  }
+
+  67.11% {
+    content: "302";
+  }
+
+  67.33% {
+    content: "303";
+  }
+
+  67.56% {
+    content: "304";
+  }
+
+  67.78% {
+    content: "305";
+  }
+
+  68.00% {
+    content: "306";
+  }
+
+  68.22% {
+    content: "307";
+  }
+
+  68.44% {
+    content: "308";
+  }
+
+  68.67% {
+    content: "309";
+  }
+
+  68.89% {
+    content: "310";
+  }
+
+  69.11% {
+    content: "311";
+  }
+
+  69.33% {
+    content: "312";
+  }
+
+  69.56% {
+    content: "313";
+  }
+
+  69.78% {
+    content: "314";
+  }
+
+  70.00% {
+    content: "315";
+  }
+
+  70.22% {
+    content: "316";
+  }
+
+  70.44% {
+    content: "317";
+  }
+
+  70.67% {
+    content: "318";
+  }
+
+  70.89% {
+    content: "319";
+  }
+
+  71.11% {
+    content: "320";
+  }
+
+  71.33% {
+    content: "321";
+  }
+
+  71.56% {
+    content: "322";
+  }
+
+  71.78% {
+    content: "323";
+  }
+
+  72.00% {
+    content: "324";
+  }
+
+  72.22% {
+    content: "325";
+  }
+
+  72.44% {
+    content: "326";
+  }
+
+  72.67% {
+    content: "327";
+  }
+
+  72.89% {
+    content: "328";
+  }
+
+  73.11% {
+    content: "329";
+  }
+
+  73.33% {
+    content: "330";
+  }
+
+  73.56% {
+    content: "331";
+  }
+
+  73.78% {
+    content: "332";
+  }
+
+  74.00% {
+    content: "333";
+  }
+
+  74.22% {
+    content: "334";
+  }
+
+  74.44% {
+    content: "335";
+  }
+
+  74.67% {
+    content: "336";
+  }
+
+  74.89% {
+    content: "337";
+  }
+
+  75.11% {
+    content: "338";
+  }
+
+  75.33% {
+    content: "339";
+  }
+
+  75.56% {
+    content: "340";
+  }
+
+  75.78% {
+    content: "341";
+  }
+
+  76.00% {
+    content: "342";
+  }
+
+  76.22% {
+    content: "343";
+  }
+
+  76.44% {
+    content: "344";
+  }
+
+  76.67% {
+    content: "345";
+  }
+
+  76.89% {
+    content: "346";
+  }
+
+  77.11% {
+    content: "347";
+  }
+
+  77.33% {
+    content: "348";
+  }
+
+  77.56% {
+    content: "349";
+  }
+
+  77.78% {
+    content: "350";
+  }
+
+  78.00% {
+    content: "351";
+  }
+
+  78.22% {
+    content: "352";
+  }
+
+  78.44% {
+    content: "353";
+  }
+
+  78.67% {
+    content: "354";
+  }
+
+  78.89% {
+    content: "355";
+  }
+
+  79.11% {
+    content: "356";
+  }
+
+  79.33% {
+    content: "357";
+  }
+
+  79.56% {
+    content: "358";
+  }
+
+  79.78% {
+    content: "359";
+  }
+
+  80.00% {
+    content: "360";
+  }
+
+  80.22% {
+    content: "361";
+  }
+
+  80.44% {
+    content: "362";
+  }
+
+  80.67% {
+    content: "363";
+  }
+
+  80.89% {
+    content: "364";
+  }
+
+  81.11% {
+    content: "365";
+  }
+
+  81.33% {
+    content: "366";
+  }
+
+  81.56% {
+    content: "367";
+  }
+
+  81.78% {
+    content: "368";
+  }
+
+  82.00% {
+    content: "369";
+  }
+
+  82.22% {
+    content: "370";
+  }
+
+  82.44% {
+    content: "371";
+  }
+
+  82.67% {
+    content: "372";
+  }
+
+  82.89% {
+    content: "373";
+  }
+
+  83.11% {
+    content: "374";
+  }
+
+  83.33% {
+    content: "375";
+  }
+
+  83.56% {
+    content: "376";
+  }
+
+  83.78% {
+    content: "377";
+  }
+
+  84.00% {
+    content: "378";
+  }
+
+  84.22% {
+    content: "379";
+  }
+
+  84.44% {
+    content: "380";
+  }
+
+  84.67% {
+    content: "381";
+  }
+
+  84.89% {
+    content: "382";
+  }
+
+  85.11% {
+    content: "383";
+  }
+
+  85.33% {
+    content: "384";
+  }
+
+  85.56% {
+    content: "385";
+  }
+
+  85.78% {
+    content: "386";
+  }
+
+  86.00% {
+    content: "387";
+  }
+
+  86.22% {
+    content: "388";
+  }
+
+  86.44% {
+    content: "389";
+  }
+
+  86.67% {
+    content: "390";
+  }
+
+  86.89% {
+    content: "391";
+  }
+
+  87.11% {
+    content: "392";
+  }
+
+  87.33% {
+    content: "393";
+  }
+
+  87.56% {
+    content: "394";
+  }
+
+  87.78% {
+    content: "395";
+  }
+
+  88.00% {
+    content: "396";
+  }
+
+  88.22% {
+    content: "397";
+  }
+
+  88.44% {
+    content: "398";
+  }
+
+  88.67% {
+    content: "399";
+  }
+
+  88.89% {
+    content: "400";
+  }
+
+  89.11% {
+    content: "401";
+  }
+
+  89.33% {
+    content: "402";
+  }
+
+  89.56% {
+    content: "403";
+  }
+
+  89.78% {
+    content: "404";
+  }
+
+  90.00% {
+    content: "405";
+  }
+
+  90.22% {
+    content: "406";
+  }
+
+  90.44% {
+    content: "407";
+  }
+
+  90.67% {
+    content: "408";
+  }
+
+  90.89% {
+    content: "409";
+  }
+
+  91.11% {
+    content: "410";
+  }
+
+  91.33% {
+    content: "411";
+  }
+
+  91.56% {
+    content: "412";
+  }
+
+  91.78% {
+    content: "413";
+  }
+
+  92.00% {
+    content: "414";
+  }
+
+  92.22% {
+    content: "415";
+  }
+
+  92.44% {
+    content: "416";
+  }
+
+  92.67% {
+    content: "417";
+  }
+
+  92.89% {
+    content: "418";
+  }
+
+  93.11% {
+    content: "419";
+  }
+
+  93.33% {
+    content: "420";
+  }
+
+  93.56% {
+    content: "421";
+  }
+
+  93.78% {
+    content: "422";
+  }
+
+  94.00% {
+    content: "423";
+  }
+
+  94.22% {
+    content: "424";
+  }
+
+  94.44% {
+    content: "425";
+  }
+
+  94.67% {
+    content: "426";
+  }
+
+  94.89% {
+    content: "427";
+  }
+
+  95.11% {
+    content: "428";
+  }
+
+  95.33% {
+    content: "429";
+  }
+
+  95.56% {
+    content: "430";
+  }
+
+  95.78% {
+    content: "431";
+  }
+
+  96.00% {
+    content: "432";
+  }
+
+  96.22% {
+    content: "433";
+  }
+
+  96.44% {
+    content: "434";
+  }
+
+  96.67% {
+    content: "435";
+  }
+
+  96.89% {
+    content: "436";
+  }
+
+  97.11% {
+    content: "437";
+  }
+
+  97.33% {
+    content: "438";
+  }
+
+  97.56% {
+    content: "439";
+  }
+
+  97.78% {
+    content: "440";
+  }
+
+  98.00% {
+    content: "441";
+  }
+
+  98.22% {
+    content: "442";
+  }
+
+  98.44% {
+    content: "443";
+  }
+
+  98.67% {
+    content: "444";
+  }
+
+  98.89% {
+    content: "445";
+  }
+
+  99.11% {
+    content: "446";
+  }
+
+  99.33% {
+    content: "447";
+  }
+
+  99.56% {
+    content: "448";
+  }
+
+  99.78% {
+    content: "449";
+  }
+
+  100.00% {
+    content: "450";
+  }
+}
+
+@keyframes counter550 {
+  0.00% {
+    content: "0";
+  }
+
+  0.18% {
+    content: "1";
+  }
+
+  0.36% {
+    content: "2";
+  }
+
+  0.55% {
+    content: "3";
+  }
+
+  0.73% {
+    content: "4";
+  }
+
+  0.91% {
+    content: "5";
+  }
+
+  1.09% {
+    content: "6";
+  }
+
+  1.27% {
+    content: "7";
+  }
+
+  1.45% {
+    content: "8";
+  }
+
+  1.64% {
+    content: "9";
+  }
+
+  1.82% {
+    content: "10";
+  }
+
+  2.00% {
+    content: "11";
+  }
+
+  2.18% {
+    content: "12";
+  }
+
+  2.36% {
+    content: "13";
+  }
+
+  2.55% {
+    content: "14";
+  }
+
+  2.73% {
+    content: "15";
+  }
+
+  2.91% {
+    content: "16";
+  }
+
+  3.09% {
+    content: "17";
+  }
+
+  3.27% {
+    content: "18";
+  }
+
+  3.45% {
+    content: "19";
+  }
+
+  3.64% {
+    content: "20";
+  }
+
+  3.82% {
+    content: "21";
+  }
+
+  4.00% {
+    content: "22";
+  }
+
+  4.18% {
+    content: "23";
+  }
+
+  4.36% {
+    content: "24";
+  }
+
+  4.55% {
+    content: "25";
+  }
+
+  4.73% {
+    content: "26";
+  }
+
+  4.91% {
+    content: "27";
+  }
+
+  5.09% {
+    content: "28";
+  }
+
+  5.27% {
+    content: "29";
+  }
+
+  5.45% {
+    content: "30";
+  }
+
+  5.64% {
+    content: "31";
+  }
+
+  5.82% {
+    content: "32";
+  }
+
+  6.00% {
+    content: "33";
+  }
+
+  6.18% {
+    content: "34";
+  }
+
+  6.36% {
+    content: "35";
+  }
+
+  6.55% {
+    content: "36";
+  }
+
+  6.73% {
+    content: "37";
+  }
+
+  6.91% {
+    content: "38";
+  }
+
+  7.09% {
+    content: "39";
+  }
+
+  7.27% {
+    content: "40";
+  }
+
+  7.45% {
+    content: "41";
+  }
+
+  7.64% {
+    content: "42";
+  }
+
+  7.82% {
+    content: "43";
+  }
+
+  8.00% {
+    content: "44";
+  }
+
+  8.18% {
+    content: "45";
+  }
+
+  8.36% {
+    content: "46";
+  }
+
+  8.55% {
+    content: "47";
+  }
+
+  8.73% {
+    content: "48";
+  }
+
+  8.91% {
+    content: "49";
+  }
+
+  9.09% {
+    content: "50";
+  }
+
+  9.27% {
+    content: "51";
+  }
+
+  9.45% {
+    content: "52";
+  }
+
+  9.64% {
+    content: "53";
+  }
+
+  9.82% {
+    content: "54";
+  }
+
+  10.00% {
+    content: "55";
+  }
+
+  10.18% {
+    content: "56";
+  }
+
+  10.36% {
+    content: "57";
+  }
+
+  10.55% {
+    content: "58";
+  }
+
+  10.73% {
+    content: "59";
+  }
+
+  10.91% {
+    content: "60";
+  }
+
+  11.09% {
+    content: "61";
+  }
+
+  11.27% {
+    content: "62";
+  }
+
+  11.45% {
+    content: "63";
+  }
+
+  11.64% {
+    content: "64";
+  }
+
+  11.82% {
+    content: "65";
+  }
+
+  12.00% {
+    content: "66";
+  }
+
+  12.18% {
+    content: "67";
+  }
+
+  12.36% {
+    content: "68";
+  }
+
+  12.55% {
+    content: "69";
+  }
+
+  12.73% {
+    content: "70";
+  }
+
+  12.91% {
+    content: "71";
+  }
+
+  13.09% {
+    content: "72";
+  }
+
+  13.27% {
+    content: "73";
+  }
+
+  13.45% {
+    content: "74";
+  }
+
+  13.64% {
+    content: "75";
+  }
+
+  13.82% {
+    content: "76";
+  }
+
+  14.00% {
+    content: "77";
+  }
+
+  14.18% {
+    content: "78";
+  }
+
+  14.36% {
+    content: "79";
+  }
+
+  14.55% {
+    content: "80";
+  }
+
+  14.73% {
+    content: "81";
+  }
+
+  14.91% {
+    content: "82";
+  }
+
+  15.09% {
+    content: "83";
+  }
+
+  15.27% {
+    content: "84";
+  }
+
+  15.45% {
+    content: "85";
+  }
+
+  15.64% {
+    content: "86";
+  }
+
+  15.82% {
+    content: "87";
+  }
+
+  16.00% {
+    content: "88";
+  }
+
+  16.18% {
+    content: "89";
+  }
+
+  16.36% {
+    content: "90";
+  }
+
+  16.55% {
+    content: "91";
+  }
+
+  16.73% {
+    content: "92";
+  }
+
+  16.91% {
+    content: "93";
+  }
+
+  17.09% {
+    content: "94";
+  }
+
+  17.27% {
+    content: "95";
+  }
+
+  17.45% {
+    content: "96";
+  }
+
+  17.64% {
+    content: "97";
+  }
+
+  17.82% {
+    content: "98";
+  }
+
+  18.00% {
+    content: "99";
+  }
+
+  18.18% {
+    content: "100";
+  }
+
+  18.36% {
+    content: "101";
+  }
+
+  18.55% {
+    content: "102";
+  }
+
+  18.73% {
+    content: "103";
+  }
+
+  18.91% {
+    content: "104";
+  }
+
+  19.09% {
+    content: "105";
+  }
+
+  19.27% {
+    content: "106";
+  }
+
+  19.45% {
+    content: "107";
+  }
+
+  19.64% {
+    content: "108";
+  }
+
+  19.82% {
+    content: "109";
+  }
+
+  20.00% {
+    content: "110";
+  }
+
+  20.18% {
+    content: "111";
+  }
+
+  20.36% {
+    content: "112";
+  }
+
+  20.55% {
+    content: "113";
+  }
+
+  20.73% {
+    content: "114";
+  }
+
+  20.91% {
+    content: "115";
+  }
+
+  21.09% {
+    content: "116";
+  }
+
+  21.27% {
+    content: "117";
+  }
+
+  21.45% {
+    content: "118";
+  }
+
+  21.64% {
+    content: "119";
+  }
+
+  21.82% {
+    content: "120";
+  }
+
+  22.00% {
+    content: "121";
+  }
+
+  22.18% {
+    content: "122";
+  }
+
+  22.36% {
+    content: "123";
+  }
+
+  22.55% {
+    content: "124";
+  }
+
+  22.73% {
+    content: "125";
+  }
+
+  22.91% {
+    content: "126";
+  }
+
+  23.09% {
+    content: "127";
+  }
+
+  23.27% {
+    content: "128";
+  }
+
+  23.45% {
+    content: "129";
+  }
+
+  23.64% {
+    content: "130";
+  }
+
+  23.82% {
+    content: "131";
+  }
+
+  24.00% {
+    content: "132";
+  }
+
+  24.18% {
+    content: "133";
+  }
+
+  24.36% {
+    content: "134";
+  }
+
+  24.55% {
+    content: "135";
+  }
+
+  24.73% {
+    content: "136";
+  }
+
+  24.91% {
+    content: "137";
+  }
+
+  25.09% {
+    content: "138";
+  }
+
+  25.27% {
+    content: "139";
+  }
+
+  25.45% {
+    content: "140";
+  }
+
+  25.64% {
+    content: "141";
+  }
+
+  25.82% {
+    content: "142";
+  }
+
+  26.00% {
+    content: "143";
+  }
+
+  26.18% {
+    content: "144";
+  }
+
+  26.36% {
+    content: "145";
+  }
+
+  26.55% {
+    content: "146";
+  }
+
+  26.73% {
+    content: "147";
+  }
+
+  26.91% {
+    content: "148";
+  }
+
+  27.09% {
+    content: "149";
+  }
+
+  27.27% {
+    content: "150";
+  }
+
+  27.45% {
+    content: "151";
+  }
+
+  27.64% {
+    content: "152";
+  }
+
+  27.82% {
+    content: "153";
+  }
+
+  28.00% {
+    content: "154";
+  }
+
+  28.18% {
+    content: "155";
+  }
+
+  28.36% {
+    content: "156";
+  }
+
+  28.55% {
+    content: "157";
+  }
+
+  28.73% {
+    content: "158";
+  }
+
+  28.91% {
+    content: "159";
+  }
+
+  29.09% {
+    content: "160";
+  }
+
+  29.27% {
+    content: "161";
+  }
+
+  29.45% {
+    content: "162";
+  }
+
+  29.64% {
+    content: "163";
+  }
+
+  29.82% {
+    content: "164";
+  }
+
+  30.00% {
+    content: "165";
+  }
+
+  30.18% {
+    content: "166";
+  }
+
+  30.36% {
+    content: "167";
+  }
+
+  30.55% {
+    content: "168";
+  }
+
+  30.73% {
+    content: "169";
+  }
+
+  30.91% {
+    content: "170";
+  }
+
+  31.09% {
+    content: "171";
+  }
+
+  31.27% {
+    content: "172";
+  }
+
+  31.45% {
+    content: "173";
+  }
+
+  31.64% {
+    content: "174";
+  }
+
+  31.82% {
+    content: "175";
+  }
+
+  32.00% {
+    content: "176";
+  }
+
+  32.18% {
+    content: "177";
+  }
+
+  32.36% {
+    content: "178";
+  }
+
+  32.55% {
+    content: "179";
+  }
+
+  32.73% {
+    content: "180";
+  }
+
+  32.91% {
+    content: "181";
+  }
+
+  33.09% {
+    content: "182";
+  }
+
+  33.27% {
+    content: "183";
+  }
+
+  33.45% {
+    content: "184";
+  }
+
+  33.64% {
+    content: "185";
+  }
+
+  33.82% {
+    content: "186";
+  }
+
+  34.00% {
+    content: "187";
+  }
+
+  34.18% {
+    content: "188";
+  }
+
+  34.36% {
+    content: "189";
+  }
+
+  34.55% {
+    content: "190";
+  }
+
+  34.73% {
+    content: "191";
+  }
+
+  34.91% {
+    content: "192";
+  }
+
+  35.09% {
+    content: "193";
+  }
+
+  35.27% {
+    content: "194";
+  }
+
+  35.45% {
+    content: "195";
+  }
+
+  35.64% {
+    content: "196";
+  }
+
+  35.82% {
+    content: "197";
+  }
+
+  36.00% {
+    content: "198";
+  }
+
+  36.18% {
+    content: "199";
+  }
+
+  36.36% {
+    content: "200";
+  }
+
+  36.55% {
+    content: "201";
+  }
+
+  36.73% {
+    content: "202";
+  }
+
+  36.91% {
+    content: "203";
+  }
+
+  37.09% {
+    content: "204";
+  }
+
+  37.27% {
+    content: "205";
+  }
+
+  37.45% {
+    content: "206";
+  }
+
+  37.64% {
+    content: "207";
+  }
+
+  37.82% {
+    content: "208";
+  }
+
+  38.00% {
+    content: "209";
+  }
+
+  38.18% {
+    content: "210";
+  }
+
+  38.36% {
+    content: "211";
+  }
+
+  38.55% {
+    content: "212";
+  }
+
+  38.73% {
+    content: "213";
+  }
+
+  38.91% {
+    content: "214";
+  }
+
+  39.09% {
+    content: "215";
+  }
+
+  39.27% {
+    content: "216";
+  }
+
+  39.45% {
+    content: "217";
+  }
+
+  39.64% {
+    content: "218";
+  }
+
+  39.82% {
+    content: "219";
+  }
+
+  40.00% {
+    content: "220";
+  }
+
+  40.18% {
+    content: "221";
+  }
+
+  40.36% {
+    content: "222";
+  }
+
+  40.55% {
+    content: "223";
+  }
+
+  40.73% {
+    content: "224";
+  }
+
+  40.91% {
+    content: "225";
+  }
+
+  41.09% {
+    content: "226";
+  }
+
+  41.27% {
+    content: "227";
+  }
+
+  41.45% {
+    content: "228";
+  }
+
+  41.64% {
+    content: "229";
+  }
+
+  41.82% {
+    content: "230";
+  }
+
+  42.00% {
+    content: "231";
+  }
+
+  42.18% {
+    content: "232";
+  }
+
+  42.36% {
+    content: "233";
+  }
+
+  42.55% {
+    content: "234";
+  }
+
+  42.73% {
+    content: "235";
+  }
+
+  42.91% {
+    content: "236";
+  }
+
+  43.09% {
+    content: "237";
+  }
+
+  43.27% {
+    content: "238";
+  }
+
+  43.45% {
+    content: "239";
+  }
+
+  43.64% {
+    content: "240";
+  }
+
+  43.82% {
+    content: "241";
+  }
+
+  44.00% {
+    content: "242";
+  }
+
+  44.18% {
+    content: "243";
+  }
+
+  44.36% {
+    content: "244";
+  }
+
+  44.55% {
+    content: "245";
+  }
+
+  44.73% {
+    content: "246";
+  }
+
+  44.91% {
+    content: "247";
+  }
+
+  45.09% {
+    content: "248";
+  }
+
+  45.27% {
+    content: "249";
+  }
+
+  45.45% {
+    content: "250";
+  }
+
+  45.64% {
+    content: "251";
+  }
+
+  45.82% {
+    content: "252";
+  }
+
+  46.00% {
+    content: "253";
+  }
+
+  46.18% {
+    content: "254";
+  }
+
+  46.36% {
+    content: "255";
+  }
+
+  46.55% {
+    content: "256";
+  }
+
+  46.73% {
+    content: "257";
+  }
+
+  46.91% {
+    content: "258";
+  }
+
+  47.09% {
+    content: "259";
+  }
+
+  47.27% {
+    content: "260";
+  }
+
+  47.45% {
+    content: "261";
+  }
+
+  47.64% {
+    content: "262";
+  }
+
+  47.82% {
+    content: "263";
+  }
+
+  48.00% {
+    content: "264";
+  }
+
+  48.18% {
+    content: "265";
+  }
+
+  48.36% {
+    content: "266";
+  }
+
+  48.55% {
+    content: "267";
+  }
+
+  48.73% {
+    content: "268";
+  }
+
+  48.91% {
+    content: "269";
+  }
+
+  49.09% {
+    content: "270";
+  }
+
+  49.27% {
+    content: "271";
+  }
+
+  49.45% {
+    content: "272";
+  }
+
+  49.64% {
+    content: "273";
+  }
+
+  49.82% {
+    content: "274";
+  }
+
+  50.00% {
+    content: "275";
+  }
+
+  50.18% {
+    content: "276";
+  }
+
+  50.36% {
+    content: "277";
+  }
+
+  50.55% {
+    content: "278";
+  }
+
+  50.73% {
+    content: "279";
+  }
+
+  50.91% {
+    content: "280";
+  }
+
+  51.09% {
+    content: "281";
+  }
+
+  51.27% {
+    content: "282";
+  }
+
+  51.45% {
+    content: "283";
+  }
+
+  51.64% {
+    content: "284";
+  }
+
+  51.82% {
+    content: "285";
+  }
+
+  52.00% {
+    content: "286";
+  }
+
+  52.18% {
+    content: "287";
+  }
+
+  52.36% {
+    content: "288";
+  }
+
+  52.55% {
+    content: "289";
+  }
+
+  52.73% {
+    content: "290";
+  }
+
+  52.91% {
+    content: "291";
+  }
+
+  53.09% {
+    content: "292";
+  }
+
+  53.27% {
+    content: "293";
+  }
+
+  53.45% {
+    content: "294";
+  }
+
+  53.64% {
+    content: "295";
+  }
+
+  53.82% {
+    content: "296";
+  }
+
+  54.00% {
+    content: "297";
+  }
+
+  54.18% {
+    content: "298";
+  }
+
+  54.36% {
+    content: "299";
+  }
+
+  54.55% {
+    content: "300";
+  }
+
+  54.73% {
+    content: "301";
+  }
+
+  54.91% {
+    content: "302";
+  }
+
+  55.09% {
+    content: "303";
+  }
+
+  55.27% {
+    content: "304";
+  }
+
+  55.45% {
+    content: "305";
+  }
+
+  55.64% {
+    content: "306";
+  }
+
+  55.82% {
+    content: "307";
+  }
+
+  56.00% {
+    content: "308";
+  }
+
+  56.18% {
+    content: "309";
+  }
+
+  56.36% {
+    content: "310";
+  }
+
+  56.55% {
+    content: "311";
+  }
+
+  56.73% {
+    content: "312";
+  }
+
+  56.91% {
+    content: "313";
+  }
+
+  57.09% {
+    content: "314";
+  }
+
+  57.27% {
+    content: "315";
+  }
+
+  57.45% {
+    content: "316";
+  }
+
+  57.64% {
+    content: "317";
+  }
+
+  57.82% {
+    content: "318";
+  }
+
+  58.00% {
+    content: "319";
+  }
+
+  58.18% {
+    content: "320";
+  }
+
+  58.36% {
+    content: "321";
+  }
+
+  58.55% {
+    content: "322";
+  }
+
+  58.73% {
+    content: "323";
+  }
+
+  58.91% {
+    content: "324";
+  }
+
+  59.09% {
+    content: "325";
+  }
+
+  59.27% {
+    content: "326";
+  }
+
+  59.45% {
+    content: "327";
+  }
+
+  59.64% {
+    content: "328";
+  }
+
+  59.82% {
+    content: "329";
+  }
+
+  60.00% {
+    content: "330";
+  }
+
+  60.18% {
+    content: "331";
+  }
+
+  60.36% {
+    content: "332";
+  }
+
+  60.55% {
+    content: "333";
+  }
+
+  60.73% {
+    content: "334";
+  }
+
+  60.91% {
+    content: "335";
+  }
+
+  61.09% {
+    content: "336";
+  }
+
+  61.27% {
+    content: "337";
+  }
+
+  61.45% {
+    content: "338";
+  }
+
+  61.64% {
+    content: "339";
+  }
+
+  61.82% {
+    content: "340";
+  }
+
+  62.00% {
+    content: "341";
+  }
+
+  62.18% {
+    content: "342";
+  }
+
+  62.36% {
+    content: "343";
+  }
+
+  62.55% {
+    content: "344";
+  }
+
+  62.73% {
+    content: "345";
+  }
+
+  62.91% {
+    content: "346";
+  }
+
+  63.09% {
+    content: "347";
+  }
+
+  63.27% {
+    content: "348";
+  }
+
+  63.45% {
+    content: "349";
+  }
+
+  63.64% {
+    content: "350";
+  }
+
+  63.82% {
+    content: "351";
+  }
+
+  64.00% {
+    content: "352";
+  }
+
+  64.18% {
+    content: "353";
+  }
+
+  64.36% {
+    content: "354";
+  }
+
+  64.55% {
+    content: "355";
+  }
+
+  64.73% {
+    content: "356";
+  }
+
+  64.91% {
+    content: "357";
+  }
+
+  65.09% {
+    content: "358";
+  }
+
+  65.27% {
+    content: "359";
+  }
+
+  65.45% {
+    content: "360";
+  }
+
+  65.64% {
+    content: "361";
+  }
+
+  65.82% {
+    content: "362";
+  }
+
+  66.00% {
+    content: "363";
+  }
+
+  66.18% {
+    content: "364";
+  }
+
+  66.36% {
+    content: "365";
+  }
+
+  66.55% {
+    content: "366";
+  }
+
+  66.73% {
+    content: "367";
+  }
+
+  66.91% {
+    content: "368";
+  }
+
+  67.09% {
+    content: "369";
+  }
+
+  67.27% {
+    content: "370";
+  }
+
+  67.45% {
+    content: "371";
+  }
+
+  67.64% {
+    content: "372";
+  }
+
+  67.82% {
+    content: "373";
+  }
+
+  68.00% {
+    content: "374";
+  }
+
+  68.18% {
+    content: "375";
+  }
+
+  68.36% {
+    content: "376";
+  }
+
+  68.55% {
+    content: "377";
+  }
+
+  68.73% {
+    content: "378";
+  }
+
+  68.91% {
+    content: "379";
+  }
+
+  69.09% {
+    content: "380";
+  }
+
+  69.27% {
+    content: "381";
+  }
+
+  69.45% {
+    content: "382";
+  }
+
+  69.64% {
+    content: "383";
+  }
+
+  69.82% {
+    content: "384";
+  }
+
+  70.00% {
+    content: "385";
+  }
+
+  70.18% {
+    content: "386";
+  }
+
+  70.36% {
+    content: "387";
+  }
+
+  70.55% {
+    content: "388";
+  }
+
+  70.73% {
+    content: "389";
+  }
+
+  70.91% {
+    content: "390";
+  }
+
+  71.09% {
+    content: "391";
+  }
+
+  71.27% {
+    content: "392";
+  }
+
+  71.45% {
+    content: "393";
+  }
+
+  71.64% {
+    content: "394";
+  }
+
+  71.82% {
+    content: "395";
+  }
+
+  72.00% {
+    content: "396";
+  }
+
+  72.18% {
+    content: "397";
+  }
+
+  72.36% {
+    content: "398";
+  }
+
+  72.55% {
+    content: "399";
+  }
+
+  72.73% {
+    content: "400";
+  }
+
+  72.91% {
+    content: "401";
+  }
+
+  73.09% {
+    content: "402";
+  }
+
+  73.27% {
+    content: "403";
+  }
+
+  73.45% {
+    content: "404";
+  }
+
+  73.64% {
+    content: "405";
+  }
+
+  73.82% {
+    content: "406";
+  }
+
+  74.00% {
+    content: "407";
+  }
+
+  74.18% {
+    content: "408";
+  }
+
+  74.36% {
+    content: "409";
+  }
+
+  74.55% {
+    content: "410";
+  }
+
+  74.73% {
+    content: "411";
+  }
+
+  74.91% {
+    content: "412";
+  }
+
+  75.09% {
+    content: "413";
+  }
+
+  75.27% {
+    content: "414";
+  }
+
+  75.45% {
+    content: "415";
+  }
+
+  75.64% {
+    content: "416";
+  }
+
+  75.82% {
+    content: "417";
+  }
+
+  76.00% {
+    content: "418";
+  }
+
+  76.18% {
+    content: "419";
+  }
+
+  76.36% {
+    content: "420";
+  }
+
+  76.55% {
+    content: "421";
+  }
+
+  76.73% {
+    content: "422";
+  }
+
+  76.91% {
+    content: "423";
+  }
+
+  77.09% {
+    content: "424";
+  }
+
+  77.27% {
+    content: "425";
+  }
+
+  77.45% {
+    content: "426";
+  }
+
+  77.64% {
+    content: "427";
+  }
+
+  77.82% {
+    content: "428";
+  }
+
+  78.00% {
+    content: "429";
+  }
+
+  78.18% {
+    content: "430";
+  }
+
+  78.36% {
+    content: "431";
+  }
+
+  78.55% {
+    content: "432";
+  }
+
+  78.73% {
+    content: "433";
+  }
+
+  78.91% {
+    content: "434";
+  }
+
+  79.09% {
+    content: "435";
+  }
+
+  79.27% {
+    content: "436";
+  }
+
+  79.45% {
+    content: "437";
+  }
+
+  79.64% {
+    content: "438";
+  }
+
+  79.82% {
+    content: "439";
+  }
+
+  80.00% {
+    content: "440";
+  }
+
+  80.18% {
+    content: "441";
+  }
+
+  80.36% {
+    content: "442";
+  }
+
+  80.55% {
+    content: "443";
+  }
+
+  80.73% {
+    content: "444";
+  }
+
+  80.91% {
+    content: "445";
+  }
+
+  81.09% {
+    content: "446";
+  }
+
+  81.27% {
+    content: "447";
+  }
+
+  81.45% {
+    content: "448";
+  }
+
+  81.64% {
+    content: "449";
+  }
+
+  81.82% {
+    content: "450";
+  }
+
+  82.00% {
+    content: "451";
+  }
+
+  82.18% {
+    content: "452";
+  }
+
+  82.36% {
+    content: "453";
+  }
+
+  82.55% {
+    content: "454";
+  }
+
+  82.73% {
+    content: "455";
+  }
+
+  82.91% {
+    content: "456";
+  }
+
+  83.09% {
+    content: "457";
+  }
+
+  83.27% {
+    content: "458";
+  }
+
+  83.45% {
+    content: "459";
+  }
+
+  83.64% {
+    content: "460";
+  }
+
+  83.82% {
+    content: "461";
+  }
+
+  84.00% {
+    content: "462";
+  }
+
+  84.18% {
+    content: "463";
+  }
+
+  84.36% {
+    content: "464";
+  }
+
+  84.55% {
+    content: "465";
+  }
+
+  84.73% {
+    content: "466";
+  }
+
+  84.91% {
+    content: "467";
+  }
+
+  85.09% {
+    content: "468";
+  }
+
+  85.27% {
+    content: "469";
+  }
+
+  85.45% {
+    content: "470";
+  }
+
+  85.64% {
+    content: "471";
+  }
+
+  85.82% {
+    content: "472";
+  }
+
+  86.00% {
+    content: "473";
+  }
+
+  86.18% {
+    content: "474";
+  }
+
+  86.36% {
+    content: "475";
+  }
+
+  86.55% {
+    content: "476";
+  }
+
+  86.73% {
+    content: "477";
+  }
+
+  86.91% {
+    content: "478";
+  }
+
+  87.09% {
+    content: "479";
+  }
+
+  87.27% {
+    content: "480";
+  }
+
+  87.45% {
+    content: "481";
+  }
+
+  87.64% {
+    content: "482";
+  }
+
+  87.82% {
+    content: "483";
+  }
+
+  88.00% {
+    content: "484";
+  }
+
+  88.18% {
+    content: "485";
+  }
+
+  88.36% {
+    content: "486";
+  }
+
+  88.55% {
+    content: "487";
+  }
+
+  88.73% {
+    content: "488";
+  }
+
+  88.91% {
+    content: "489";
+  }
+
+  89.09% {
+    content: "490";
+  }
+
+  89.27% {
+    content: "491";
+  }
+
+  89.45% {
+    content: "492";
+  }
+
+  89.64% {
+    content: "493";
+  }
+
+  89.82% {
+    content: "494";
+  }
+
+  90.00% {
+    content: "495";
+  }
+
+  90.18% {
+    content: "496";
+  }
+
+  90.36% {
+    content: "497";
+  }
+
+  90.55% {
+    content: "498";
+  }
+
+  90.73% {
+    content: "499";
+  }
+
+  90.91% {
+    content: "500";
+  }
+
+  91.09% {
+    content: "501";
+  }
+
+  91.27% {
+    content: "502";
+  }
+
+  91.45% {
+    content: "503";
+  }
+
+  91.64% {
+    content: "504";
+  }
+
+  91.82% {
+    content: "505";
+  }
+
+  92.00% {
+    content: "506";
+  }
+
+  92.18% {
+    content: "507";
+  }
+
+  92.36% {
+    content: "508";
+  }
+
+  92.55% {
+    content: "509";
+  }
+
+  92.73% {
+    content: "510";
+  }
+
+  92.91% {
+    content: "511";
+  }
+
+  93.09% {
+    content: "512";
+  }
+
+  93.27% {
+    content: "513";
+  }
+
+  93.45% {
+    content: "514";
+  }
+
+  93.64% {
+    content: "515";
+  }
+
+  93.82% {
+    content: "516";
+  }
+
+  94.00% {
+    content: "517";
+  }
+
+  94.18% {
+    content: "518";
+  }
+
+  94.36% {
+    content: "519";
+  }
+
+  94.55% {
+    content: "520";
+  }
+
+  94.73% {
+    content: "521";
+  }
+
+  94.91% {
+    content: "522";
+  }
+
+  95.09% {
+    content: "523";
+  }
+
+  95.27% {
+    content: "524";
+  }
+
+  95.45% {
+    content: "525";
+  }
+
+  95.64% {
+    content: "526";
+  }
+
+  95.82% {
+    content: "527";
+  }
+
+  96.00% {
+    content: "528";
+  }
+
+  96.18% {
+    content: "529";
+  }
+
+  96.36% {
+    content: "530";
+  }
+
+  96.55% {
+    content: "531";
+  }
+
+  96.73% {
+    content: "532";
+  }
+
+  96.91% {
+    content: "533";
+  }
+
+  97.09% {
+    content: "534";
+  }
+
+  97.27% {
+    content: "535";
+  }
+
+  97.45% {
+    content: "536";
+  }
+
+  97.64% {
+    content: "537";
+  }
+
+  97.82% {
+    content: "538";
+  }
+
+  98.00% {
+    content: "539";
+  }
+
+  98.18% {
+    content: "540";
+  }
+
+  98.36% {
+    content: "541";
+  }
+
+  98.55% {
+    content: "542";
+  }
+
+  98.73% {
+    content: "543";
+  }
+
+  98.91% {
+    content: "544";
+  }
+
+  99.09% {
+    content: "545";
+  }
+
+  99.27% {
+    content: "546";
+  }
+
+  99.45% {
+    content: "547";
+  }
+
+  99.64% {
+    content: "548";
+  }
+
+  99.82% {
+    content: "549";
+  }
+
+  100.00% {
+    content: "550";
+  }
+}
+
+@keyframes counter25 {
+  0.00% {
+    content: "0";
+  }
+
+  4.00% {
+    content: "1";
+  }
+
+  8.00% {
+    content: "2";
+  }
+
+  12.00% {
+    content: "3";
+  }
+
+  16.00% {
+    content: "4";
+  }
+
+  20.00% {
+    content: "5";
+  }
+
+  24.00% {
+    content: "6";
+  }
+
+  28.00% {
+    content: "7";
+  }
+
+  32.00% {
+    content: "8";
+  }
+
+  36.00% {
+    content: "9";
+  }
+
+  40.00% {
+    content: "10";
+  }
+
+  44.00% {
+    content: "11";
+  }
+
+  48.00% {
+    content: "12";
+  }
+
+  52.00% {
+    content: "13";
+  }
+
+  56.00% {
+    content: "14";
+  }
+
+  60.00% {
+    content: "15";
+  }
+
+  64.00% {
+    content: "16";
+  }
+
+  68.00% {
+    content: "17";
+  }
+
+  72.00% {
+    content: "18";
+  }
+
+  76.00% {
+    content: "19";
+  }
+
+  80.00% {
+    content: "20";
+  }
+
+  84.00% {
+    content: "21";
+  }
+
+  88.00% {
+    content: "22";
+  }
+
+  92.00% {
+    content: "23";
+  }
+
+  96.00% {
+    content: "24";
+  }
+
+  100.00% {
+    content: "25";
+  }
+}
+
+@keyframes counter48 {
+  0.00% {
+    content: "0";
+  }
+
+  2.08% {
+    content: "1";
+  }
+
+  4.17% {
+    content: "2";
+  }
+
+  6.25% {
+    content: "3";
+  }
+
+  8.33% {
+    content: "4";
+  }
+
+  10.42% {
+    content: "5";
+  }
+
+  12.50% {
+    content: "6";
+  }
+
+  14.58% {
+    content: "7";
+  }
+
+  16.67% {
+    content: "8";
+  }
+
+  18.75% {
+    content: "9";
+  }
+
+  20.83% {
+    content: "10";
+  }
+
+  22.92% {
+    content: "11";
+  }
+
+  25.00% {
+    content: "12";
+  }
+
+  27.08% {
+    content: "13";
+  }
+
+  29.17% {
+    content: "14";
+  }
+
+  31.25% {
+    content: "15";
+  }
+
+  33.33% {
+    content: "16";
+  }
+
+  35.42% {
+    content: "17";
+  }
+
+  37.50% {
+    content: "18";
+  }
+
+  39.58% {
+    content: "19";
+  }
+
+  41.67% {
+    content: "20";
+  }
+
+  43.75% {
+    content: "21";
+  }
+
+  45.83% {
+    content: "22";
+  }
+
+  47.92% {
+    content: "23";
+  }
+
+  50.00% {
+    content: "24";
+  }
+
+  52.08% {
+    content: "25";
+  }
+
+  54.17% {
+    content: "26";
+  }
+
+  56.25% {
+    content: "27";
+  }
+
+  58.33% {
+    content: "28";
+  }
+
+  60.42% {
+    content: "29";
+  }
+
+  62.50% {
+    content: "30";
+  }
+
+  64.58% {
+    content: "31";
+  }
+
+  66.67% {
+    content: "32";
+  }
+
+  68.75% {
+    content: "33";
+  }
+
+  70.83% {
+    content: "34";
+  }
+
+  72.92% {
+    content: "35";
+  }
+
+  75.00% {
+    content: "36";
+  }
+
+  77.08% {
+    content: "37";
+  }
+
+  79.17% {
+    content: "38";
+  }
+
+  81.25% {
+    content: "39";
+  }
+
+  83.33% {
+    content: "40";
+  }
+
+  85.42% {
+    content: "41";
+  }
+
+  87.50% {
+    content: "42";
+  }
+
+  89.58% {
+    content: "43";
+  }
+
+  91.67% {
+    content: "44";
+  }
+
+  93.75% {
+    content: "45";
+  }
+
+  95.83% {
+    content: "46";
+  }
+
+  97.92% {
+    content: "47";
+  }
+
+  100.00% {
+    content: "48";
+  }
+}
